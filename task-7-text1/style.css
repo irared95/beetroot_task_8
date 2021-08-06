@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Playfair Display Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2) format('woff2'), url(../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff) format('woff'), url(../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato Light';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Lato/Lato-Light.woff2)format('woff2'), url(../fonts/Lato/Lato-Light.woff) format('woff'), url(../fonts/Lato/Lato-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato LightItalic';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Lato/Lato-LightItalic.woff2)format('woff2'), url(../fonts/Lato/Lato-LightItalic.woff) format('woff'), url(../fonts/Lato/Lato-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Lato/Lato-Bold.woff2)format('woff2'), url(../fonts/Lato/Lato-Bold.woff) format('woff'), url(../fonts/Lato/Lato-Bold.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+}
+
+.article {
+    padding: 146px 0 210px;
+}
+
+.title {
+    margin-bottom: 34px;
+    font-size: 42px;
+    font-family: "Playfair Display Regular", sans-serif;
+    color: rgb(23, 23, 23);
+    line-height: 46px;
+    text-align: left;
+}
+
+.paragraph-text {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Lato Light", sans-serif;
+    letter-spacing: 1px;
+    color: rgba(23, 23, 23, 0.702);
+}
+
+.paragraph-text:last-child {
+    margin-bottom: 20px;
+}
+
+.first-letter:first-letter {
+    float: left;
+    font-family: "Playfair Display Regular", sans-serif;
+    font-size: 110px;
+    line-height: 90px;
+    color: #171717;
+    text-transform: uppercase;
+    margin: 0 22px 1px 0;
+}
+
+.blockquote {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: "Lato LightItalic", sans-serif;
+    color: rgba(23, 23, 23, 0.702);
+}
+
+.blockquote:before {
+    content: '“';
+    margin-right: 10px;
+    margin-bottom: -10px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #171717;
+}
+
+.discover {
+    display: inline-block;
+    padding: 21px 78px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Lato Bold";
+    color: rgb(234, 162, 88);
+    text-decoration: none;
+    letter-spacing: 2px;
+    border: 2px solid rgb(234, 162, 88);
+    text-transform: uppercase;
+    transition: all .2s linear;
+}
+
+.discover:hover {
+    opacity: .7;
+}
